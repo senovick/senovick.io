@@ -12,13 +12,13 @@ const Header = () => {
                 </div>
                 <ul className="ul-items">
                     <li>
-                        <Link to="#">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="#">About</Link>
+                        <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <Link to="#">Services</Link>
+                        <Link to="/projects">Services</Link>
                     </li>
                     <li>
                         <Link to="#">Blog</Link>
