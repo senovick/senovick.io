@@ -1,4 +1,3 @@
-import { MenuOutlined } from '@material-ui/icons'
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './styles/Header.css'
@@ -18,7 +17,7 @@ const Header = () => {
                         <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/projects">Services</Link>
+                        <Link to="/projects">Projects</Link>
                     </li>
                     <li>
                         <Link to="#">Blog</Link>
@@ -26,9 +25,6 @@ const Header = () => {
                     <li>
                         <Link to="/contact">Contact</Link>
                     </li>
-                    <div className="hamburger-icon">
-                        <MenuOutlined className="menu" />
-                    </div>
                 </ul>
             </nav>
         </div>

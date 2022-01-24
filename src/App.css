@@ -1,23 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Duru+Sans&family=Lato:ital,wght@0,300;0,700;1,100&family=Montserrat:wght@200;600&family=Poppins:wght@100;400;500&family=Roboto+Mono&family=Roboto:wght@500;900&family=Rubik:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  background-color: rgba(0, 0, 0, 0.596);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  color: #ddd;
+  background-color: #0F1624;
   border: 7px solid black;
+  scroll-behavior: smooth;
 }
 
 .main-section {
-  width: 100%;
-  min-height: 80vh;
-  font-family: 'Poppins', sans-serif;
+  padding: 32px 48px 0;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  min-height: 100vh;
   overflow: hidden;
+  margin: auto;
+}
+
+.section-title {
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 72px;
+  width: max-content;
+  max-width: 100%;
+  color: #ddd;
 }
 
 .container {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -145,9 +159,6 @@ html {
 
 
 @media (max-width:400px) {
-
-
-
   .texts h1 {
       font-size: 10px;
       color: gray;

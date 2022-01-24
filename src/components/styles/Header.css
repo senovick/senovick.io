@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Duru+Sans&family=Lato:ital,wght@0,300;0,700;1,100&family=Montserrat:wght@200;600&family=Poppins:wght@100;400;500&family=Roboto+Mono&family=Roboto:wght@500;900&family=Rubik:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 .header {
     width: 100%;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
+    font-family: 'Roboto Mono', monospace;
     overflow: hidden;
     display: flex;
     align-items: center;
-    z-index: 100;
 }
 nav {
     display: flex;
